@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishore R - Electrical Engineer</title>
+    <link rel="stylesheet" href="potf2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <script defer src="potf2.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <h1 class="animated-name">Kishore R</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#assignments">Assignments</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Home Section with Profile Image and Animated Role -->
+    <section id="home" class="section home-container">
+        <img src="Assets/image files/kishoe.jpg" alt="Kishore R" class="profile-image">
+        <div class="name-container">
+            <h2 class="animated-name">Kishore R</h2>
+            <p class="animated-role">Electrical Engineer | <span class="glow">PCB Designer</span> | Embedded Developer</p>
+            <p class="intro">Dedicated electrical engineer with expertise in circuit design, embedded systems, and power solutions. Passionate about innovation and sustainable technology.</p>
+        </div>
+    </section>
+    
+    <!-- Assignments Section -->
+    <section id="assignments" class="section">
+        <h2>Assignments</h2>
+        <div class="assignment-grid">
+            <button class="assignment" onclick="showAssignment(1)">Assignment 1</button>
+            <button class="assignment" onclick="showAssignment(2)">Assignment 2</button>
+            <button class="assignment" onclick="showAssignment(3)">Assignment 3</button>
+            <button class="assignment" onclick="showAssignment(4)">Assignment 4</button>
+            <button class="assignment" onclick="showAssignment(5)">Assignment 5</button>
+            <button class="assignment" onclick="showAssignment(6)">Assignment 6</button>
+        </div>
+        <div id="assignment-content" class="assignment-display"></div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <img src="Assets/image files/sustainability-12-01280-g001.webp" alt="Hybrid Renewable Energy">
+                <h3>Hybrid Renewable Energy Systems</h3>
+            </div>
+            <div class="project">
+                <img src="Assets/image files/Jammer-circuit-diagram-Figure-5-Breadboard-Assembly-of-the-jammer-The-tuned-circuit.png" alt="Mobile Signal Jammer">
+                <h3>Mobile Signal Jammer</h3>
+            </div>
+            <div class="project">
+                <img src="Assets/image files/ppt explain.jpg" alt="Paper Presentation">
+                <h3>Paper Presentation (Certificates Included)</h3>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Courses Section -->
+    <section id="courses" class="section">
+        <h2>Courses</h2>
+        <ul>
+            <li>Crash Course in Electronics and PCB Designing</li>
+            <li>Programming in Java</li>
+        </ul>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="form-response" class="form-response"></p>
+        <p class="copyright">© 2025 Kishore R. All rights reserved.</p>
+    </section>
+</body>
+</html>

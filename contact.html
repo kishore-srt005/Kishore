@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Kishore's Portfolio</title>
+    <link rel="stylesheet" href="portf1.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Assets/image files/kishore logo.png" alt="Kishore's Logo">
+            </div>
+            <ul class="nav-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="assignments.html">Assignments</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+    
+        <div class="contact-info">
+            <p><strong>Email:</strong> kishorenmkl005@gmail.com</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kishore-r-0aa071293" target="_blank">Visit my LinkedIn</a></p>
+            <p><strong>Phone:</strong> +91 9488790021</p>
+        </div>
+
+        <h3>Send Me a Message</h3>
+        <form id="contact-form" action="https://formspree.io/f/mkgodavw" method="POST">
+            <input type="text" name="name" id="name" placeholder="Your Name" required>
+            <input type="email" name="email" id="email" placeholder="Your Email" required>
+            <textarea name="message" id="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p id="form-response" class="hidden"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kishore R. All rights reserved.</p>
+    </footer>
+
+    <script src="script1.js"></script>
+</body>
+</html>

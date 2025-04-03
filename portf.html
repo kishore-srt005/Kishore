@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishore's Portfolio</title>
+    <link rel="stylesheet" href="portf.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1f1c2c, #928dab);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Navigation Bar */
+        nav {
+            position: fixed;
+            top: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #f0f0f0;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+        
+        /* Header */
+        .header-content {
+            text-align: center;
+            padding: 100px 20px;
+            
+        }
+        .profile-photo {
+            width: 150px;
+            border-radius: 50%;
+            border: 3px solid #ffcc00;
+        }
+        .header-text h1 {
+            font-size: 2.5rem;
+            margin-top: 15px;
+        }
+        .header-text p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+        
+        /* Sections */
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #ffcc00;
+        }
+        .project-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .project {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            width: 300px;
+            transition: transform 0.3s;
+        }
+        .project:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-name">Kishore R</div>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="kishore-logo.png" alt="Kishore's Logo"></a>
+            </div>
+            <ul class="nav-right">
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="assignments.html">Assignments</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>        
+        <div class="header-content">
+            <img src="kishoe.jpg" alt="My Photo" class="profile-photo">
+            <div class="header-text">
+                <h1>Kishore R</h1>
+                <p> Problem Solving| Circuit Designer | Embedded Developer</p>
+            </div>
+        </div>
+    </header>
+    
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <p>I am a passionate web developer with experience in front-end and back-end technologies. I love creating interactive and visually appealing websites that provide a great user experience.</p>
+    </section>
+    
+    <section id="projects" class="fade-in">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <h3>Solar and Wind Hybrid Integration System</h3>
+                <p>The Solar and Wind Hybrid Integration System is a sustainable energy solution that combines solar photovoltaic (PV) panels and wind turbines to generate electricity efficiently. This project optimizes renewable energy sources to provide a stable power supply, reducing dependency on fossil fuels and minimizing carbon emissions.</p>
+            </div>
+            <div class="project">
+                <h3>Mobile Signal Jammer</h3>
+                <p>A Mobile Signal Jammer is a device that blocks mobile network signals by transmitting interference at the same frequency as cellular communication. It prevents mobile phones from making or receiving calls, texts, or data connections within a specified range. These jammers are commonly used in restricted areas like examination halls, military zones, and confidential meetings. .</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills" class="fade-in">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Power Systems</li>
+            <li>Renewable Energy (Solar & Wind)</li>
+            <li>Embedded Systems</li>
+            <li>Microcontrollers (Arduino, PIC, Raspberry Pi)</li>
+            <li>PCB Design & Circuit Analysis</li>
+            <li>MATLAB & Simulink</li>
+            <li>Electric Drives & Motors</li>
+        </ul>
+    </section>
+    
+    <section id="contact" class="fade-in">
+        <h2>Contact</h2>
+        <p>Email: kishorenmkl005@gmail.com</p>
+        <p>LinkedIn: <a href="#">https://www.linkedin.com/in/kishore-r-0aa071293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Kishore R. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
